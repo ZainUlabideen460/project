@@ -15,13 +15,20 @@ export interface Course {
   features: string[];
   outline: string[];
 }
+import flutter from '../assets/flutter.webp'
+import mern from '../assets/mernimg.png'
+import front from '../assets/frontend.jpg'
+import backend from '../assets/backend.avif'
+import basic from '../assets/basic.webp'
+import python from '../assets/pytone.jpg'
+
 
 export const courses: Course[] = [
   {
     id: "flutter-development",
     title: "Flutter App Development",
     description: "Master mobile app development with Flutter and Dart. Build cross-platform apps for iOS and Android from scratch.",
-    image: "src/assets/flutter-course.jpg",
+    image:flutter,
     price: 1500,
     originalPrice: 3000,
     discount: 50,
@@ -53,7 +60,7 @@ export const courses: Course[] = [
     id: "mern-stack",
     title: "MERN Stack Web Development",
     description: "Complete full-stack web development with MongoDB, Express.js, React, and Node.js. Build modern web applications.",
-    image: "src/assets/mern-course.jpg",
+    image: mern,
     price: 1500,
     originalPrice: 3000,
     discount: 50,
@@ -85,12 +92,12 @@ export const courses: Course[] = [
     id: "frontend-development",
     title: "Frontend Development(React Js)",
     description: "Become a frontend expert with HTML5, CSS3, JavaScript, and modern frameworks React js. Create stunning user interfaces.",
-    image: "src/assets/frontend-course.jpg",
+    image: front,
     price: 1500,
     originalPrice: 3000,
     discount: 50,
     duration: "2 Months",
-    level: "Beginner",
+    level: "Intermediate",
     rating: 4.7,
     students: 312,
     instructor: "Muhammad Zain",
@@ -117,7 +124,7 @@ export const courses: Course[] = [
     id: "backend-development",
     title: "Backend Development with Node.js",
     description: "Master server-side development with Node.js, Express, databases, and API design. Build scalable backend systems.",
-    image: "src/assets/backend-course.jpg",
+    image: backend,
     price: 1500,
     originalPrice: 3000,
     discount: 50,
@@ -149,7 +156,7 @@ export const courses: Course[] = [
     id: "python-programming",
     title: "Python Programming & Data Science",
     description: "Learn Python from basics to advanced topics including data science, machine learning, and web development.",
-    image: "src/assets/python-course.jpg",
+    image: python,
     price: 1500,
     originalPrice: 3000,
     discount: 50,
@@ -181,7 +188,7 @@ export const courses: Course[] = [
     id: "basic-programming",
     title: "Programming Fundamentals",
     description: "Start your programming journey with core concepts, problem-solving techniques, and multiple programming languages.",
-    image: "src/assets/programming-basics.jpg",
+    image: basic,
     price: 1500,
     originalPrice: 3000,
     discount: 50,
@@ -209,38 +216,7 @@ export const courses: Course[] = [
       "Project-based Learning"
     ]
   },
-  {
-    id: "ms-office",
-    title: "Microsoft Office Suite Mastery",
-    description: "Master MS Word, Excel, PowerPoint, and Outlook for professional productivity and business applications.",
-    image: "src/assets/office-course.jpg",
-    price: 1999,
-    originalPrice: 2999,
-    discount: 33,
-    duration: "1.5 Months",
-    level: "Beginner",
-    rating: 4.4,
-    students: 567,
-    instructor: "Kavita Joshi",
-    category: "Productivity",
-    features: [
-      "Professional Templates",
-      "Advanced Formulas & Functions",
-      "Business Presentations",
-      "Email Management",
-      "Real-world Scenarios"
-    ],
-    outline: [
-      "MS Word - Advanced Formatting",
-      "Document Templates & Styles",
-      "MS Excel - Formulas & Functions",
-      "Data Analysis & Charts",
-      "PowerPoint - Professional Presentations",
-      "Animation & Slide Design",
-      "Outlook - Email & Calendar Management",
-      "Integration Between Office Apps"
-    ]
-  }
+ 
 ];
 
 export const categories = [

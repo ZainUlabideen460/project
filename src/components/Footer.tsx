@@ -60,21 +60,35 @@ const Footer = () => {
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span>shamsabad rawalpindi</span>
               </div>
-            <div className="flex flex-col space-y-2">
-  <div className="flex items-center space-x-2">
-    <Phone className="h-4 w-4 flex-shrink-0" />
-    <span>+92 332 5326149</span>
-  </div>
-  <div className="flex items-center space-x-2">
-    <Phone className="h-4 w-4 flex-shrink-0" />
-    <span>+92 325 7875721</span>
-  </div>
-</div>
-
-              <div className="flex items-center space-x-3">
-                <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>starscoaching.site@gmail.com</span>
+              
+              <div className="flex flex-col space-y-2">
+                <a 
+                  href="https://wa.me/923325326149" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 hover:text-accent transition-colors cursor-pointer group"
+                >
+                  <Phone className="h-4 w-4 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                  <span className="hover:underline">+92 332 5326149</span>
+                </a>
+                <a 
+                  href="https://wa.me/923257875721" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 hover:text-accent transition-colors cursor-pointer group"
+                >
+                  <Phone className="h-4 w-4 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                  <span className="hover:underline">+92 325 7875721</span>
+                </a>
               </div>
+
+              <a 
+                href="mailto:starscoaching.site@gmail.com" 
+                className="flex items-center space-x-3 hover:text-accent transition-colors cursor-pointer group"
+              >
+                <Mail className="h-4 w-4 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="hover:underline">starscoaching.site@gmail.com</span>
+              </a>
             </div>
           </div>
         </div>
