@@ -85,7 +85,7 @@ const CourseCard = ({ course }: CourseCardProps) => {
             className="w-full"
             onClick={() => {
               const message = `Hi! I'm interested in enrolling for the ${course.title} course. Can you please provide more details?`;
-              const whatsappUrl = `https://wa.me/918825592070?text=${encodeURIComponent(message)}`;
+              const whatsappUrl = `https://wa.me/923325326149?text=${encodeURIComponent(message)}`;
               window.open(whatsappUrl, '_blank');
             }}
           >

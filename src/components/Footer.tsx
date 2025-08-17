@@ -21,7 +21,14 @@ const Footer = () => {
               Your journey to a successful tech career starts here.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="h-5 w-5 hover:text-accent cursor-pointer transition-colors" />
+     <a
+  href="https://www.facebook.com/share/15qjDbhC8o/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Facebook className="h-5 w-5 hover:text-accent cursor-pointer transition-colors" />
+</a>
+
               <Twitter className="h-5 w-5 hover:text-accent cursor-pointer transition-colors" />
               <Instagram className="h-5 w-5 hover:text-accent cursor-pointer transition-colors" />
               <Linkedin className="h-5 w-5 hover:text-accent cursor-pointer transition-colors" />
